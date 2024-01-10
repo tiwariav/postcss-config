@@ -1,3 +1,10 @@
+## 1.0.0 (2024-01-10)
+
+
+### ✨ Features
+
+* initial commit ([e89764f](https://github.com/tiwariav/postcss-config/commit/e89764f8b5299d80dbb01bbc4f1b442a0a014095))
+
 ## [1.1.0](https://github.com/tiwariav/stylelint-config/compare/v1.0.20...v1.1.0) (2024-01-10)
 
 
