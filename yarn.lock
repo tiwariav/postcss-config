@@ -148,6 +148,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/postcss-global-data@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "@csstools/postcss-global-data@npm:2.1.1"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: bb2ad05d7009d32ca78fd0e53453defeb07bf45c52891ce35dfad233d0bda229cd341523bc50e97605b1f41002348d0c3eb247adbd2687cd3761fd93dfe15aa9
+  languageName: node
+  linkType: hard
+
 "@csstools/postcss-gradients-interpolation-method@npm:^4.0.7":
   version: 4.0.9
   resolution: "@csstools/postcss-gradients-interpolation-method@npm:4.0.9"
@@ -443,12 +452,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tiwariav/postcss-config@workspace:."
   dependencies:
+    "@csstools/postcss-global-data": "npm:^2.1.1"
     postcss: "npm:^8.4.33"
     postcss-global-import: "npm:^1.0.6"
     postcss-import: "npm:^16.0.0"
     postcss-mixins: "npm:^9.0.4"
     postcss-modules: "npm:^6.0.0"
     postcss-preset-env: "npm:^9.3.0"
+  peerDependencies:
+    postcss: ^8.4.33
   languageName: unknown
   linkType: soft
 

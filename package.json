@@ -9,6 +9,7 @@
     "LICENSE"
   ],
   "dependencies": {
+    "@csstools/postcss-global-data": "^2.1.1",
     "postcss-global-import": "^1.0.6",
     "postcss-import": "^16.0.0",
     "postcss-mixins": "^9.0.4",
