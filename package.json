@@ -9,12 +9,17 @@
     "LICENSE"
   ],
   "dependencies": {
-    "postcss": "^8.4.33",
     "postcss-global-import": "^1.0.6",
     "postcss-import": "^16.0.0",
     "postcss-mixins": "^9.0.4",
     "postcss-modules": "^6.0.0",
     "postcss-preset-env": "^9.3.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.33"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.33"
   },
   "packageManager": "yarn@4.0.2"
 }
