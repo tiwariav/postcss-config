@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/tiwariav/postcss-config/compare/v1.0.0...v1.0.1) (2024-01-10)
+
+
+### ♻️ Code Refactors
+
+* add postcss to peer dependencies ([46304ee](https://github.com/tiwariav/postcss-config/commit/46304eecab9d4827aba41475dde65e47def6a920))
+
 ## 1.0.0 (2024-01-10)
 
 
