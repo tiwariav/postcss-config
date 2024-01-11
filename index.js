@@ -19,11 +19,14 @@ const presetEnvOptions = {
   stage: 1,
 };
 
-const getConfig = (env = "production", { globalDataOptions } = {}) => {
+const getConfig = (
+  env = "production",
+  { globalDataOptions, mixinOptions } = {}
+) => {
   const config = {
     plugins: [
       postcssGlobalImport(),
-      postcssImport(),
+      postcssImport(mixinOptions),
       postcssMixin(),
       postcssPresetEnv({ ...presetEnvOptions, env }),
       cssnano({ preset: "advanced" }),
