@@ -26,8 +26,8 @@ const getConfig = (
   const config = {
     plugins: [
       postcssGlobalImport(),
-      postcssImport(mixinOptions),
-      postcssMixin(),
+      postcssImport(),
+      postcssMixin(mixinOptions),
       postcssPresetEnv({ ...presetEnvOptions, env }),
       cssnano({ preset: "advanced" }),
     ],
