@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/tiwariav/postcss-config/compare/v1.1.1...v1.1.2) (2024-01-16)
+
+
+### 🐛 Bug Fixes
+
+* correct options for postcssMixin ([3080847](https://github.com/tiwariav/postcss-config/commit/308084770d136458937620736fc69e1142bab5bb))
+
 ## [1.1.1](https://github.com/tiwariav/postcss-config/compare/v1.1.0...v1.1.1) (2024-01-11)
 
 
