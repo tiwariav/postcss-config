@@ -1,3 +1,5 @@
+/// <reference path="index.d.ts"/>
+
 const cssnano = require("cssnano");
 const postcssGlobalImport = require("postcss-global-import");
 const postcssImport = require("postcss-import");
@@ -18,6 +20,7 @@ const defaultPresetEnvOptions = {
   stage: 1,
 };
 
+/** @type {getConfig} */
 const getConfig = (
   env = "production",
   {
