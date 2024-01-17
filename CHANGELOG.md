@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/tiwariav/postcss-config/compare/v1.1.5...v1.1.6) (2024-01-17)
+
+
+### 🐛 Bug Fixes
+
+* add type file to dist ([ec44fe9](https://github.com/tiwariav/postcss-config/commit/ec44fe9e0dc129824f4c3f5efe9d0887b33983f8))
+
 ## [1.1.5](https://github.com/tiwariav/postcss-config/compare/v1.1.4...v1.1.5) (2024-01-17)
 
 
