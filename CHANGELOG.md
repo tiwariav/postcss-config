@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/tiwariav/postcss-config/compare/v1.1.7...v1.1.8) (2024-01-17)
+
+
+### 🐛 Bug Fixes
+
+* export getConfig as const from declaration ([9999797](https://github.com/tiwariav/postcss-config/commit/9999797e9fe493b0272f99638b3207b6d457db7c))
+
 ## [1.1.7](https://github.com/tiwariav/postcss-config/compare/v1.1.6...v1.1.7) (2024-01-17)
 
 
