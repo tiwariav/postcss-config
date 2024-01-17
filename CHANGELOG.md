@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/tiwariav/postcss-config/compare/v1.1.3...v1.1.4) (2024-01-17)
+
+
+### 🐛 Bug Fixes
+
+* remove option to preserve custom media queries ([3c68794](https://github.com/tiwariav/postcss-config/commit/3c68794429bd080cfcae14bc696638218ec12a1b))
+
 ## [1.1.3](https://github.com/tiwariav/postcss-config/compare/v1.1.2...v1.1.3) (2024-01-17)
 
 
