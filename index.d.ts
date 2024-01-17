@@ -4,7 +4,7 @@ declare module "@tiwariav/postcss-config" {
     options?: {
       globalDataOptions?: { files: string[] };
       mixinOptions?: { mixinsDir: string };
-      presetEnvOptions?: object;
+      presetEnvOptions?: { preserveMediaQueries: boolean };
     }
   ) => {
     plugins: AcceptedPlugin;
