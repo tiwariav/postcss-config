@@ -6,6 +6,7 @@
   "license": "MIT",
   "files": [
     "index.js",
+    "index.d.ts",
     "LICENSE"
   ],
   "dependencies": {
