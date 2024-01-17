@@ -20,7 +20,7 @@ const defaultPresetEnvOptions = {
   stage: 1,
 };
 
-/** @type {getConfig} */
+/** @type {import("@tiwariav/postcss-config").getConfig} */
 const getConfig = (
   env = "production",
   {
