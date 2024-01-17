@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/tiwariav/postcss-config/compare/v1.1.4...v1.1.5) (2024-01-17)
+
+
+### ♻️ Code Refactors
+
+* add types ([9cf36ba](https://github.com/tiwariav/postcss-config/commit/9cf36bae3e04a971b6796723d23416caf5bf16c8))
+
 ## [1.1.4](https://github.com/tiwariav/postcss-config/compare/v1.1.3...v1.1.4) (2024-01-17)
 
 
