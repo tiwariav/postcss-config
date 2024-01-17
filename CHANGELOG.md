@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/tiwariav/postcss-config/compare/v1.1.9...v1.1.10) (2024-01-17)
+
+
+### 🐛 Bug Fixes
+
+* add preserveMediaQueries to enable overriding custom media properties ([f356812](https://github.com/tiwariav/postcss-config/commit/f356812397c896d06434a747cd890d2d5db50cf8))
+
 ## [1.1.9](https://github.com/tiwariav/postcss-config/compare/v1.1.8...v1.1.9) (2024-01-17)
 
 
