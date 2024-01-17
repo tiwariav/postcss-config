@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/tiwariav/postcss-config/compare/v1.1.8...v1.1.9) (2024-01-17)
+
+
+### 🐛 Bug Fixes
+
+* add cssnano dependencies ([cfdc282](https://github.com/tiwariav/postcss-config/commit/cfdc2824d0ad1cfd979d62fe51d448c48d00b6b1))
+
 ## [1.1.8](https://github.com/tiwariav/postcss-config/compare/v1.1.7...v1.1.8) (2024-01-17)
 
 
