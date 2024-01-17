@@ -1,6 +1,7 @@
 /// <reference path="index.d.ts"/>
 
 const cssnano = require("cssnano");
+const cssnanoPresetAdvanced = require("cssnano-preset-advanced");
 const postcssGlobalImport = require("postcss-global-import");
 const postcssImport = require("postcss-import");
 const postcssPresetEnv = require("postcss-preset-env");
@@ -32,7 +33,7 @@ const getConfig = (
       postcssImport(),
       postcssMixin(mixinOptions),
       postcssPresetEnv({ ...getPresetEnvOptions(presetEnvOptions), env }),
-      cssnano({ preset: "advanced" }),
+      cssnano({ preset: cssnanoPresetAdvanced }),
     ],
     sourceMap: env === "development",
   };
