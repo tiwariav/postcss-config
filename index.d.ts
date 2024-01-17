@@ -1,5 +1,5 @@
 declare module "@tiwariav/postcss-config" {
-  type getConfig = (
+  const getConfig: (
     env: string,
     options?: {
       globalDataOptions?: { files: string[] };
