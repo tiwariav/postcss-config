@@ -5,30 +5,33 @@ const postcssPresetEnv = require("postcss-preset-env");
 const postcssMixin = require("postcss-mixins");
 const globalData = require("@csstools/postcss-global-data");
 
-const getPresetEnvOptions = ({ preserveMediaQueries } = {}) => ({
+const defaultPresetEnvOptions = {
   autoprefixer: {
     flexbox: "no-2009",
   },
   features: {
     "cascade-layers": false,
-    "custom-media-queries": { preserve: preserveMediaQueries },
     "custom-properties": true,
     "gap-properties": true,
     "nesting-rules": true,
   },
   stage: 1,
-});
+};
 
 const getConfig = (
   env = "production",
-  { globalDataOptions, mixinOptions, presetEnvOptions } = {}
+  {
+    globalDataOptions,
+    mixinOptions,
+    presetEnvOptions = defaultPresetEnvOptions,
+  } = {}
 ) => {
   const config = {
     plugins: [
       postcssGlobalImport(),
       postcssImport(),
       postcssMixin(mixinOptions),
-      postcssPresetEnv({ ...getPresetEnvOptions(presetEnvOptions), env }),
+      postcssPresetEnv({ ...presetEnvOptions, env }),
       cssnano({ preset: "advanced" }),
     ],
     sourceMap: env === "development",
@@ -39,4 +42,4 @@ const getConfig = (
   return config;
 };
 
-module.exports = { getConfig, getPresetEnvOptions };
+module.exports = { getConfig, defaultPresetEnvOptions };
