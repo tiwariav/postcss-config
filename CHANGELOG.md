@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/tiwariav/postcss-config/compare/v1.1.2...v1.1.3) (2024-01-17)
+
+
+### ♻️ Code Refactors
+
+* add option preserveMediaQueries ([8666907](https://github.com/tiwariav/postcss-config/commit/8666907a43493d2cd96db2fd2ab4c8c7f91f865b))
+
 ## [1.1.2](https://github.com/tiwariav/postcss-config/compare/v1.1.1...v1.1.2) (2024-01-16)
 
 
