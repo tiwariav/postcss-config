@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/tiwariav/postcss-config/compare/v1.1.6...v1.1.7) (2024-01-17)
+
+
+### 🐛 Bug Fixes
+
+* declare module in type file ([5259e8f](https://github.com/tiwariav/postcss-config/commit/5259e8f004c228ee5c0ee2db0dbea03d9c986e2c))
+
 ## [1.1.6](https://github.com/tiwariav/postcss-config/compare/v1.1.5...v1.1.6) (2024-01-17)
 
 
