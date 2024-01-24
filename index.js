@@ -59,7 +59,10 @@ const getStringConfig = (
     sourceMap: env === "development",
   };
   if (globalDataOptions) {
-    config.plugins.splice(0, 0, ["postcss-global-data", globalDataOptions]);
+    config.plugins.splice(0, 0, [
+      "@csstools/postcss-global-data",
+      globalDataOptions,
+    ]);
   }
   return config;
 };
