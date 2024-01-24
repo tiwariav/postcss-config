@@ -43,4 +43,25 @@ const getConfig = (
   return config;
 };
 
-module.exports = { getConfig, getPresetEnvOptions };
+/** @type {import("@tiwariav/postcss-config").getConfig} */
+const getStringConfig = (
+  env = "production",
+  { globalDataOptions, mixinOptions, presetEnvOptions } = {}
+) => {
+  const config = {
+    plugins: [
+      "postcss-global-import",
+      "postcss-import",
+      ["postcss-mixins", mixinOptions],
+      ["postcss-preset-env", { ...getPresetEnvOptions(presetEnvOptions), env }],
+      ["cssnano", { preset: "advanced" }],
+    ],
+    sourceMap: env === "development",
+  };
+  if (globalDataOptions) {
+    config.plugins.splice(0, 0, ["postcss-global-data", globalDataOptions]);
+  }
+  return config;
+};
+
+module.exports = { getConfig, getPresetEnvOptions, getStringConfig };

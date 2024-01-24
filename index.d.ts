@@ -7,7 +7,7 @@ declare module "@tiwariav/postcss-config" {
       presetEnvOptions?: { preserveMediaQueries: boolean };
     }
   ) => {
-    plugins: AcceptedPlugin;
+    plugins: AcceptedPlugin[];
     sourceMap: boolean;
   };
 }
