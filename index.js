@@ -54,7 +54,7 @@ const getStringConfig = (
       "postcss-import",
       ["postcss-mixins", mixinOptions],
       ["postcss-preset-env", { ...getPresetEnvOptions(presetEnvOptions), env }],
-      ["cssnano", { preset: "advanced" }],
+      ["cssnano", { preset: cssnanoPresetAdvanced }],
     ],
     sourceMap: env === "development",
   };
