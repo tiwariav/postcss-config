@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/tiwariav/postcss-config/compare/v1.2.1...v1.2.2) (2024-01-24)
+
+
+### 🐛 Bug Fixes
+
+* use function for cssnano preset ([45dce2f](https://github.com/tiwariav/postcss-config/commit/45dce2f0a0d266d932d14dcf217144297dbbe17b))
+
 ## [1.2.1](https://github.com/tiwariav/postcss-config/compare/v1.2.0...v1.2.1) (2024-01-24)
 
 
