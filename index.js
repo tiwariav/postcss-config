@@ -35,7 +35,6 @@ const getConfig = (
       postcssPresetEnv({ ...getPresetEnvOptions(presetEnvOptions), env }),
       cssnano({ preset: cssnanoPresetAdvanced }),
     ],
-    sourceMap: env === "development",
   };
   if (globalDataOptions) {
     config.plugins.splice(0, 0, globalData(globalDataOptions));
@@ -56,7 +55,6 @@ const getStringConfig = (
       ["postcss-preset-env", { ...getPresetEnvOptions(presetEnvOptions), env }],
       ["cssnano", { preset: cssnanoPresetAdvanced }],
     ],
-    sourceMap: env === "development",
   };
   if (globalDataOptions) {
     config.plugins.splice(0, 0, [
