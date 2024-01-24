@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/tiwariav/postcss-config/compare/v1.2.2...v1.2.3) (2024-01-24)
+
+
+### 🐛 Bug Fixes
+
+* remove sourceMap option ([03393c4](https://github.com/tiwariav/postcss-config/commit/03393c4c86ecc519703ad8951e275c1be9c25bb2))
+
 ## [1.2.2](https://github.com/tiwariav/postcss-config/compare/v1.2.1...v1.2.2) (2024-01-24)
 
 
