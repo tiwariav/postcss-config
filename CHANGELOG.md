@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/tiwariav/postcss-config/compare/v1.2.0...v1.2.1) (2024-01-24)
+
+
+### 🐛 Bug Fixes
+
+* correct string for global-data plugin ([251dbac](https://github.com/tiwariav/postcss-config/commit/251dbac941b5bf6538e429a907322ccdf21b74d1))
+
 ## [1.2.0](https://github.com/tiwariav/postcss-config/compare/v1.1.11...v1.2.0) (2024-01-24)
 
 
