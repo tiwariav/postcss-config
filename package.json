@@ -1,7 +1,7 @@
 {
   "name": "@tiwariav/postcss-config",
   "description": "Postcss config for modern websites",
-  "version": "1.1.11",
+  "version": "1.2.0",
   "type": "commonjs",
   "license": "MIT",
   "files": [

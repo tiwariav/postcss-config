@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/tiwariav/postcss-config/compare/v1.1.11...v1.2.0) (2024-01-24)
+
+
+### ✨ Features
+
+* add string form config to use with nextjs ([00b9745](https://github.com/tiwariav/postcss-config/commit/00b9745e065889ccb75d2d7c4d06438ad00c3baf))
+
 ## [1.1.11](https://github.com/tiwariav/postcss-config/compare/v1.1.10...v1.1.11) (2024-01-17)
 
 
