@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/tiwariav/postcss-config/compare/v1.2.3...v1.2.4) (2024-01-25)
+
+
+### 🐛 Bug Fixes
+
+* add default empty config for postcss-mixins ([0e5ace5](https://github.com/tiwariav/postcss-config/commit/0e5ace591cd56eeba9214aef3282d3b8627eb155))
+
 ## [1.2.3](https://github.com/tiwariav/postcss-config/compare/v1.2.2...v1.2.3) (2024-01-24)
 
 
