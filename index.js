@@ -51,7 +51,7 @@ const getStringConfig = (
     plugins: [
       "postcss-global-import",
       "postcss-import",
-      ["postcss-mixins", mixinOptions],
+      ["postcss-mixins", mixinOptions || {}],
       ["postcss-preset-env", { ...getPresetEnvOptions(presetEnvOptions), env }],
       ["cssnano", { preset: cssnanoPresetAdvanced }],
     ],
