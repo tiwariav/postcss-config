@@ -8,6 +8,8 @@ const postcssPresetEnv = require("postcss-preset-env");
 const postcssMixin = require("postcss-mixins");
 const globalData = require("@csstools/postcss-global-data");
 
+const cssnanoPreset = () => cssnanoPresetAdvanced({ zIndex: false });
+
 const getPresetEnvOptions = ({ preserveMediaQueries } = {}) => ({
   autoprefixer: {
     flexbox: "no-2009",
@@ -33,7 +35,7 @@ const getConfig = (
       postcssImport(),
       postcssMixin(mixinOptions),
       postcssPresetEnv({ ...getPresetEnvOptions(presetEnvOptions), env }),
-      cssnano({ preset: cssnanoPresetAdvanced }),
+      cssnano({ preset: cssnanoPreset }),
     ],
   };
   if (globalDataOptions) {
@@ -53,7 +55,7 @@ const getStringConfig = (
       "postcss-import",
       ["postcss-mixins", mixinOptions || {}],
       ["postcss-preset-env", { ...getPresetEnvOptions(presetEnvOptions), env }],
-      ["cssnano", { preset: cssnanoPresetAdvanced }],
+      ["cssnano", { preset: cssnanoPreset }],
     ],
   };
   if (globalDataOptions) {
