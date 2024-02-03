@@ -8,7 +8,7 @@ const postcssPresetEnv = require("postcss-preset-env");
 const postcssMixin = require("postcss-mixins");
 const globalData = require("@csstools/postcss-global-data");
 
-const cssnanoPreset = () => cssnanoPresetAdvanced({ zIndex: false });
+const cssnanoPreset = () => cssnanoPresetAdvanced({ zindex: false });
 
 const getPresetEnvOptions = ({ preserveMediaQueries } = {}) => ({
   autoprefixer: {
