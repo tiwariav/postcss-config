@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/tiwariav/postcss-config/compare/v1.2.5...v1.2.6) (2024-02-03)
+
+
+### 🐛 Bug Fixes
+
+* remove z-index optimization from cssnano ([3f9b450](https://github.com/tiwariav/postcss-config/commit/3f9b450db99a202127e0de37e83d906a3b9e12a3))
+
 ## [1.2.5](https://github.com/tiwariav/postcss-config/compare/v1.2.4...v1.2.5) (2024-02-03)
 
 
