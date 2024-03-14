@@ -11,13 +11,13 @@
   ],
   "dependencies": {
     "@csstools/postcss-global-data": "^2.1.1",
-    "cssnano": "^6.0.3",
-    "cssnano-preset-advanced": "^6.0.3",
+    "cssnano": "^6.1.0",
+    "cssnano-preset-advanced": "^6.1.0",
     "postcss-global-import": "^1.0.6",
     "postcss-import": "^16.0.1",
-    "postcss-mixins": "^9.0.4",
+    "postcss-mixins": "^10.0.0",
     "postcss-modules": "^6.0.0",
-    "postcss-preset-env": "^9.4.0"
+    "postcss-preset-env": "^9.5.1"
   },
   "devDependencies": {
     "postcss": "^8.4.35"
