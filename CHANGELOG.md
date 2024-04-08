@@ -1,3 +1,10 @@
+## [1.2.9](https://github.com/tiwariav/postcss-config/compare/v1.2.8...v1.2.9) (2024-04-08)
+
+
+### ♻️ Code Refactors
+
+* udpate packages ([b4b5c17](https://github.com/tiwariav/postcss-config/commit/b4b5c1725f6a9e430033a62faf5e007728d36378))
+
 ## [1.2.8](https://github.com/tiwariav/postcss-config/compare/v1.2.7...v1.2.8) (2024-03-14)
 
 
