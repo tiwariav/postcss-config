@@ -17,7 +17,7 @@
     "postcss-import": "^16.1.0",
     "postcss-mixins": "^10.0.1",
     "postcss-modules": "^6.0.0",
-    "postcss-preset-env": "^9.5.9"
+    "postcss-preset-env": "^9.5.11"
   },
   "devDependencies": {
     "postcss": "^8.4.38"
