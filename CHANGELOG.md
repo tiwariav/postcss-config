@@ -1,3 +1,10 @@
+## [1.2.12](https://github.com/tiwariav/postcss-config/compare/v1.2.11...v1.2.12) (2024-06-11)
+
+
+### ♻️ Code Refactors
+
+* update dependencies ([4f78bd9](https://github.com/tiwariav/postcss-config/commit/4f78bd97fa267b32d0333c5a5e972d2255c2d1e5))
+
 ## [1.2.11](https://github.com/tiwariav/postcss-config/compare/v1.2.10...v1.2.11) (2024-05-11)
 
 
